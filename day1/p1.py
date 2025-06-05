@@ -1,0 +1,5 @@
+name=input()
+a=int(input())
+print('Hai',name,'how are you?')
+print(f'I am {a+a} years old')
+print(type(a))

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript</title>
+  </head>
+  <style>
+    .clg {
+      border: 20px;
+      background-color: bisque;
+      padding: 20px;
+      border-radius: 20px;
+      margin: 10px;
+      text-align: center;
+    }
+
+    p {
+      border: 3px solid goldenrod;
+      padding: 20px;
+      border-radius: 20px;
+      background-color: rgb(108, 190, 157);
+    }
+
+    .ani {
+      position: relative;
+      /* animation: move 3s 1 forwards 1s; */
+      background-color: rebeccapurple;
+    }
+    @keyframes move {
+      0% {
+        top: 100px;
+        left: 0px;
+      }
+      100% {
+        top: -50px;
+        left: 0px;
+      }
+    }
+  </style>
+  <body class="clg">
+    <h1>BVCITS</h1>
+    <p>CSE</p>
+    <p>AIML</p>
+    <p>CIVIL</p>
+    <div id="data"></div>
+    <button id="button1">Add Branch</button>
+  </body>
+  <script src="./JavScr.js"></script>
+</html>

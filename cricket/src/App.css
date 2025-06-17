@@ -1,0 +1,10 @@
+.cri {
+  background-color: gray;
+  color: white;
+  text-align: center;
+}
+
+.butt {
+  display: flex;
+  justify-content: center;
+}
